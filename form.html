@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>myTube</title>
+</head>
+<body>
+	<nav>
+		<a href="/">Home</a>
+		<a href="/pages/collectionOne.html">Collection One</a>
+		<a href="/pages/collectionTwo.html">Collection Two</a>
+		<a href="/pages/collectionThree.html">Collection Three</a>
+		<a href="/form.html">New Video</a>
+	</nav>
+	<header>
+		<h1>Add New Video</h1>
+	</header>
+	<form action="#" method="post">
+		<!-- Video title -->
+		<label for="videoTitle">Video Title</label><br>
+		<input type="text" id="videoTitle" name="videoTitle" placeholder="Add video title here" required>
+		<br><br>
+		<!-- description -->
+		<label for="description">Description</label><br>
+		<textarea name="description" id="description" cols="30" rows="10" placeholder="Write description here..." required></textarea>
+		<br>
+		<br>
+		<!-- video file upload -->
+		<label for="video">Video</label><br>
+		<input type="file" id="video" name="video" required>
+		<br><br>
+		<!-- collection selection -->
+		<label for="collection">Choose Collection</label><br>
+		<select name="collection" id="collection">
+			<option value="collectionOne">Collection One</option>
+			<option value="collectionTwo">Collection Two</option>
+			<option value="collectionThree">Collection Three</option>
+		</select>
+		<br><br>
+		<!-- Public selection -->
+		<label for="public">
+			<input type="radio" id="public" name="public-private" value="public">
+			Public
+		</label>
+		<label for="private">
+			<input type="radio" id="private" name="public-private" value="private">
+			Private
+		</label>
+		<br>
+		<br>
+		<br>
+		<input type="submit" value="Upload Video">
+	</form>
+	<hr>
+	<footer>
+		<p>&copy: Copyright</p>
+	</footer>
+</body>
+</html>
