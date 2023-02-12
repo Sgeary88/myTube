@@ -132,6 +132,17 @@ iframe {
 	margin: 40px 30px 5px;
 }
 
+/* Featured Footer */
+.featured-footer {
+	height: 60px;
+	width: 100%;
+	margin-bottom: 5px;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+}
+
+
 
 
 /* Collection One Styling */
@@ -181,15 +192,29 @@ iframe {
 	margin: 15px;
 }
 
+collection-one-table h2 {
+	margin: 10px auto 15px;
+}
 
-/* Footer */
-footer {
+.collection-one-link a {
+	text-decoration: none;
+	color: #ec7b19;
+	margin-bottom: 10px;
+}
+
+.collection-one-link a:hover {
+	color: #adeaff;
+}
+
+
+/* Collection One Footer */
+.collection-one-footer {
 	height: 60px;
 	width: 100%;
 	margin-bottom: 5px;
 	color: #fff;
-	position: absolute;
-	bottom: 0;
+	position: relative;
+	top: 70px;
 }
 
 hr {
