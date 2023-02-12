@@ -166,7 +166,7 @@ iframe {
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	animation: text-clip 6s ease-in-out infinite;
+	animation: text-clip 6s ease-in-out infinite alternate;
 }
 
 @keyframes text-clip {
@@ -199,6 +199,25 @@ iframe {
 	border-radius: 10px;
 	position: relative;
 	top: 30px;
+	animation: collection-one-border 6s ease-in-out infinite alternate;
+}
+
+@keyframes collection-one-border {
+	0% {
+		border-color: #ec7b19;
+	}
+
+	29% {
+		border-color: #6FC3DF;
+	}
+
+	67% {
+		border-color: #d640a4;
+	}
+
+	100% {
+		border-color: #E6FFFF;
+	}
 }
 
 .collection-one-frame {
