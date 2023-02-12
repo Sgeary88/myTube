@@ -19,14 +19,14 @@ body {
 	width: 50%;
 	margin: 0 auto 20px;
 	text-align: center;
-	font-size: 2em;
+	font-size: 3em;
 	animation: featured-header-grow 3s ease-in infinite alternate,
 		featured-header-color 3s ease-in infinite alternate;
 }
 
 @keyframes featured-header-grow {
 	from {
-		font-size: 2em;
+		font-size: 3.5em;
 	}
 
 	to {
@@ -114,11 +114,17 @@ td {
 	vertical-align: middle;
 }
 
-h2 {
+.featured-link {
+	color: #ea0000;
 	margin: 10px auto 15px;
+	border: 1px solid gray;
+	width: 30%;
+	background-color: black;
+	border-radius: 10px;
 }
 
-h2 a {
+
+.featured-link a {
 	text-decoration: none;
 	color: #ea0000;
 	margin-bottom: 10px;
@@ -148,7 +154,7 @@ iframe {
 /* Collection One Styling */
 
 .collection-one-body {
-	background-image: url(/img/gaming-background.jpg);
+	background-image: url(/img/gaming-background.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -158,7 +164,7 @@ iframe {
 	width: 50%;
 	margin: 50px auto 20px;
 	text-align: center;
-	font-size: 2em;
+	font-size: 3em;
 	background-image: linear-gradient(-225deg, #ec7b19 0%, #6FC3DF 29%, #d640a4 67%, #E6FFFF 100%);
 	background-size: 200% auto;
 	color: #fff;
@@ -198,7 +204,7 @@ iframe {
 	border: 3px solid #6FC3DF;
 	border-radius: 10px;
 	position: relative;
-	top: 30px;
+	top: 50px;
 	animation: collection-one-border 6s ease-in-out infinite alternate;
 }
 
@@ -226,6 +232,15 @@ iframe {
 
 collection-one-table h2 {
 	margin: 10px auto 15px;
+}
+
+.collection-one-link {
+	margin: 10px auto 15px;
+	width: 43%;
+	border: 1px solid #ec7b19;
+	color: #ec7b19;
+	background-color: #0c5c76;
+	border-radius: 10px;
 }
 
 .collection-one-link a {
