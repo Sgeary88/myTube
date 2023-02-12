@@ -13,7 +13,7 @@ body {
 	background-image: url(/img/background-image.jpg);
 }
 
-/* Header Styling */
+/* Featured Header Styling */
 .featured-header {
 	color: #fffb00;
 	width: 50%;
@@ -133,6 +133,55 @@ iframe {
 }
 
 
+
+/* Collection One Styling */
+
+.collection-one-body {
+	background-image: url(/img/gaming-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Collection One Header Styling */
+.collection-one-header {
+	color: #ec7b19;
+	width: 50%;
+	margin: 50px auto 20px;
+	text-align: center;
+	font-size: 2em;
+}
+
+
+/* Collection One Nav Styling */
+
+.collection-one-navbar a {
+	text-decoration: none;
+	position: relative;
+	top: 26px;
+	margin-right: 25px;
+	font-size: 1.2em;
+	color: #6FC3DF;
+}
+
+.collection-one-navbar a:hover {
+	color: #E6FFFF;
+}
+
+/* Collection One Styling */
+.collection-one-table {
+	width: 95%;
+	margin: 0 auto;
+	border: 3px solid #6FC3DF;
+	border-radius: 10px;
+	position: relative;
+	top: 30px;
+}
+
+.collection-one-frame {
+	margin: 15px;
+}
+
+
 /* Footer */
 footer {
 	height: 60px;
@@ -146,6 +195,3 @@ footer {
 hr {
 	margin: 20px 0;
 }
-
-/* Collection One Styling */
-
