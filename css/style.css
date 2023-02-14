@@ -267,3 +267,78 @@ collection-one-table h2 {
 hr {
 	margin: 20px 0;
 }
+
+/* Collection Two Styling */
+
+.collection-two-body {
+	background-image: url(/img/anime-background.jpg);
+	background-color: #6FC3DF;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Collection Two Header Styling */
+
+.collection-two-header {
+	width: 50%;
+	margin: 50px auto 20px;
+	text-align: center;
+	font-size: 3em;
+	color: #C61BC6;
+	animation: jump 1s infinite, color-change 3s ease-in-out infinite alternate;
+}
+
+@keyframes jump {
+	0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+@keyframes color-change {
+	from { color: #C61BC6; }
+	to { color: #ffb7c5; }
+}
+
+.collection-two-navbar a {
+	text-decoration: none;
+	position: relative;
+	top: 26px;
+	margin-right: 25px;
+	font-size: 1.2em;
+	color: #ffb7c5;
+}
+
+.collection-two-navbar a:hover {
+	color: #61FFC5;
+}
+
+ /* Collection Two Styling */
+.collection-two-table {
+	width: 95%;
+	margin: 0 auto;
+	border: 3px solid #6FC3DF;
+	border-radius: 10px;
+	position: relative;
+	top: 50px;
+}
+
+.collection-two-link {
+	margin: 10px auto 15px;
+	width: 43%;
+	border: 1px solid #ffb7c5;
+	background-color: #460246;
+	border-radius: 10px;
+}
+
+.collection-two-link a {
+	text-decoration: none;
+	color: #ffb7c5;
+	margin-bottom: 10px;
+}
+
+.collection-link a:hover {
+	color: #61FFC5;
+}
