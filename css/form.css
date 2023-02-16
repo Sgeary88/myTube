@@ -46,6 +46,7 @@ body {
 	color: #fcfc41;
 	position: relative;
 	bottom: 15px;
+	text-shadow: -3px 4px 15px #d11818;
 }
 
 .form-navbar a {
@@ -63,9 +64,10 @@ body {
 
 form {
 	width: 20%;
-	margin: 0 auto;
+	margin: 15px auto;
+	padding: 10px;
 	color: #fcfc41;
-	background-color: #6e6e6e;
+	background-color: #6a6a6a;
 	position: relative;
 	top: 30px;
 	border-radius: 10px;
@@ -73,10 +75,43 @@ form {
 
 label {
 	font-size: 1.3em;
+	margin-bottom: 10px;
 }
 
+input#private {
+	margin-left: 20px;
+}
 
+input, textarea, select {
+	margin-top: 10px;
+}
 
+textarea {
+	width: 100%;
+}
+
+select#collection {
+	width: 100%;
+	height: 30px;
+}
+
+.video-input {
+	width: 100%;
+	height: 30px;
+}
+
+input[type="submit"] {
+	width: 100%;
+	margin-bottom: 10px;
+	height: 30px;
+	border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+	background-color: #a0a0a0;
+}
+
+/* Form Footer */
 .form-footer {
 	height: 60px;
 	width: 100%;
