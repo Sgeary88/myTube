@@ -4,19 +4,21 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/form.css">
 	<title>myTube</title>
 </head>
-<body>
-	<nav>
-		<a href="/">Home</a>
-		<a href="/pages/collectionOne.html">Collection One</a>
-		<a href="/pages/collectionTwo.html">Collection Two</a>
-		<a href="/pages/collectionThree.html">Collection Three</a>
-		<a href="/form.html">New Video</a>
-	</nav>
+<body class="form-body">
 	<header>
-		<h1>Add New Video</h1>
-	</header>
+		<div class="banner">
+		<nav class="form-navbar">
+			<a href="/">Home</a>
+			<a href="/pages/collectionOne.html">Collection One</a>
+			<a href="/pages/collectionTwo.html">Collection Two</a>
+			<a href="/pages/collectionThree.html">Collection Three</a>
+			<a href="/form.html">New Video</a>
+		</nav>
+			<h1 class="form-header">Add New Video</h1>
+		</header>
 	<form action="#" method="post">
 		<!-- Video title -->
 		<label for="videoTitle">Video Title</label><br>
@@ -53,8 +55,9 @@
 		<br>
 		<input type="submit" value="Upload Video">
 	</form>
-	<hr>
-	<footer>
+	<!-- Footer -->
+	<footer class="form-footer">
+		<hr>
 		<p>&copy: Copyright</p>
 	</footer>
 </body>
