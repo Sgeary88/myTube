@@ -82,7 +82,9 @@ input#private {
 	margin-left: 20px;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
 	margin-top: 10px;
 }
 

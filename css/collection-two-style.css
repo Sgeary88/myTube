@@ -97,6 +97,8 @@ td {
 
 .collection-two-frame {
 	margin: 15px;
+	border-radius: 10px;
+	border: 1px solid black;
 }
 
 .collection-two-link {

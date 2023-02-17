@@ -109,6 +109,8 @@ li {
 
 .collection-one-frame {
 	margin: 15px;
+	border-radius: 10px;
+	border: 1px solid black;
 }
 
 .collection-one-link {
@@ -118,6 +120,7 @@ li {
 	color: #ec7b19;
 	background-color: #0c5c76;
 	border-radius: 10px;
+	text-align: center;
 }
 
 .collection-one-link a {

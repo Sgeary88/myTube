@@ -226,8 +226,10 @@ iframe {
 	}
 }
 
-.collection-one-frame {
-	margin: 15px;
+
+iframe {
+	border-radius: 10px;
+	border: 1px solid black;
 }
 
 collection-one-table h2 {

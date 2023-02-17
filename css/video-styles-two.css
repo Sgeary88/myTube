@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background-image: url(/img/anime-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	position: relative;
+	top: 26px;
+	margin-right: 25px;
+	font-size: 1.2em;
+	color: #ffb7c5;
+}
+
+a:hover {
+	color: #61FFC5;
+}
+
+h1 {
+	width: 50%;
+	margin: 50px auto 20px;
+	text-align: center;
+	font-size: 3em;
+	color: #C61BC6;
+	animation: color-change 3s ease-in-out infinite alternate;
+}
+
+@keyframes color-change {
+	from { color: #C61BC6; }
+	to { color: #61FFC5; }
+}
+
+.content-body {
+	width: 35%;
+	margin: 30px auto;
+	text-align: center;
+	background-color: #791079;
+	border: 5px solid #50d5a4;
+	border-radius: 10px;
+}
+
+iframe {
+	margin: 30px auto;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+p {
+	width: 80%;
+	margin: 10px auto 20px;
+	padding: 10px 5px 10px;
+	border: 3px solid #E6FFFF;
+	border-radius: 5px;
+	font-size: 1.2em;
+	background-color: #3a3a3a;
+	color: #e2e2e2;
+	letter-spacing: 3px;
+	line-height: 25px
+}
+
+/* Footer */
+footer {
+	height: 60px;
+	width: 100%;
+	margin-bottom: 5px;
+	color: #fff;
+	position: relative;
+	top: 70px;
+}
+
+hr {
+	margin: 20px 0;
+	position: relative;
+	top: 70px;
+}
